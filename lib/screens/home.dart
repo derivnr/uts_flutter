@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
                     dataTextStyle:
                         const TextStyle(color: Colors.black, fontSize: 18),
                     columns: const [
-                      DataColumn(label: Text("Name")),
+                      DataColumn(label: Text("Nama")),
                       DataColumn(label: Text("Alamat")),
                       DataColumn(label: Text("Umur"))
                     ],
@@ -91,12 +91,12 @@ class _InputFormState extends State<InputForm> {
             const SizedBox(height: 10),
             TextField(
               controller: addressController,
-              decoration: const InputDecoration(labelText: 'Address'),
+              decoration: const InputDecoration(labelText: 'Alamat'),
             ),
             const SizedBox(height: 10),
             TextField(
               controller: ageController,
-              decoration: const InputDecoration(labelText: 'Age'),
+              decoration: const InputDecoration(labelText: 'Umur'),
               keyboardType: TextInputType.number,
             ),
             const SizedBox(height: 20),
@@ -107,7 +107,7 @@ class _InputFormState extends State<InputForm> {
                 String age = ageController.text;
 
                 if (kDebugMode) {
-                  print('Name: $name, Address: $address, Age: $age');
+                  print('Name: $name, Alamat: $address, Umur: $age');
                 }
               },
               child: const Text('Submit'),
