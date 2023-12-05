@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:uts_flutter/screens/forgot_password_screen.dart';
 import 'package:uts_flutter/screens/register_screen.dart';
+import 'package:uts_flutter/screens/bottom_nav_bar.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -151,7 +152,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => const LoginScreen()));
+                                builder: (context) => const MyButtomNavBar()));
                       },
                       child: const Padding(
                         padding: EdgeInsets.all(15.0),
