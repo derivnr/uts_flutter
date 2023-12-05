@@ -1,16 +1,5 @@
-# uts_flutter
+Aplikasi kemahasiswaan yang dibangun menggunakan Flutter menyediakan solusi modern untuk manajemen data mahasiswa. Fitur-fitur seperti login, register, ubah password, OTP, input data mahasiswa, list view, bottom navigation, dan tentang aplikasi dirancang untuk meningkatkan pengalaman pengguna dan efisiensi dalam pengelolaan data mahasiswa. Dengan memanfaatkan teknologi Flutter, aplikasi ini dapat diakses secara lintas platform dengan antarmuka pengguna yang menarik.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Disusun oleh :
+Deri Ramdani 
+NIM. 22552012042
